@@ -1,0 +1,5 @@
+curl -X GET 'http://localhost:8080/progressbars'
+curl -X GET 'http://localhost:8080/progressbar/511f1d95a904f2a947000001'
+curl -X POST -d @add_test1.json 'http://localhost:8080/progressbar'
+curl -X PUT -d @update_test1.json 'http://localhost:8080/progressbar/511f1d95a904f2a947000001'
+curl -X DELETE 'http://localhost:8080/progressbar/511f1d95a904f2a947000001'
