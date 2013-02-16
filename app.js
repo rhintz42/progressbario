@@ -39,6 +39,7 @@ app.post('/wines', wine.addWine);
 app.put('/wines/:id', wine.updateWine);
 app.delete('/wines/:id', wine.deleteWine);
 */
+app.get('/', routes.index);
 app.get('/progressbars', progressbar.findAll);
 app.get('/progressbar/:id', progressbar.findById);
 app.get('/progressbars/:id', progressbar.findById);
